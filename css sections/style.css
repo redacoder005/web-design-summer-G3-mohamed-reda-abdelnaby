@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.center {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 25%;
+    box-shadow: 2px 2px 8px 5px lightgray;
+    display: inline-block;
+    margin: 3%;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    font-size: 18px;
+    line-height: 1;
+    padding: 4%;
+    font-size: large;
+    font-family: fantasy;
+    margin: 3%;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: brown;
+    background-color: black;
+    color: white;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+section p {
+    text-align: center;
+    color: grey;
+    margin-bottom: 60px;
+}
+
+.information {
+    width: 40%;
+    display: inline-block;
+}
+
+.message {
+    width: 40%;
+    display: inline-block;
+}
+
+.line {
+    width: 8%;
+    margin: 3% auto;
+    color: orange;
+    background-color: #f08605;
+    border: 5px;
+}
+
+.information input {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-bottom: 10%;
+    margin-bottom: 2%;
+    border: 0;
+    border-bottom: 2px solid rgb(243, 239, 239);
+}
+
+.message textarea {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 0;
+    border-bottom: 2px solid rgb(221, 219, 219);
+    margin-left: 5%;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form button {
+    margin: auto;
+    display: block;
+    background-color: #f08605;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    border: 0;
+}

@@ -1,0 +1,56 @@
+.list ul {
+    list-style: none;
+    padding: 5%;
+    width: 20%;
+    margin-top: 2px;
+}
+
+.list {
+    display: inline-block;
+}
+
+.list li {
+    text-align: center;
+    width: 120px;
+    background-color: black;
+    color: white;
+    height: 120px;
+    margin-bottom: 2px;
+}
+
+.list li:first-child {
+    background-color: orange;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 30%;
+    margin-left: 120px;
+}
+
+.paragraph h1 {
+    margin-bottom: 100px;
+}
+
+.paragraph p {
+    margin-bottom: 80px;
+    color: gray;
+}
+
+.paragraph button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+.image {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image img {
+    width: auto;
+    height: auto;
+    margin-left: 90px;
+    -webkit-box-reflect: below 5px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.bg-light {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 120px 0px;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 120px;
+    align-items: center;
+}
+
+.container {
+    background-color: aqua;
+    width: 100%;
+}
+
+.card {
+    width: 30%;
+    padding: 2%;
+    background-color: white;
+    border: 2px solid;
+}
+
+.order {
+    order: -1;
+}

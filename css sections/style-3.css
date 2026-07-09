@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section hr {
+    width: 60px;
+    background-color: orange;
+    padding: 1px 1px;
+    margin: auto;
+}
+
+section p {
+    text-align: center;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+    box-shadow: 0px 0px 2px 2px white;
+    border-top: 6px solid orange;
+}
+
+ul li {
+    padding-bottom: 6px;
+    border-bottom: 2px solid gray;
+    color: gray;
+}
+
+.container1 {
+    display: inline-block;
+    width: 20%;
+    margin-left: 140px;
+    border: 2px solid gray;
+}
+
+.container1 h2 {
+    color: white;
+    background-color: black;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.container1 h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container1 h1 p {
+    font-size: small;
+    text-align: center;
+}

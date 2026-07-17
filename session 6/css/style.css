@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.header {
+    display: flex;
+    justify-items: center;
+    column-gap: 6px;
+    justify-content: center;
+}
+
+.card {
+    width: 40%;
+    box-shadow: 0 0 2px 2px gray;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.overlay {
+    background-color: rgb(44, 44, 44);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.body h1 {
+    color: aqua;
+    font-size: 20px;
+}
+
+.body hr {
+    background-color: black;
+    width: 40px;
+}
+
+.body p {
+    color: gray;
+}

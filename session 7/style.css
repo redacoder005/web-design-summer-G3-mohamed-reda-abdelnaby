@@ -1,0 +1,39 @@
+section {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.body {
+    color: rgb(178, 176, 176);
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    background-color: white;
+    transition: 2s;
+}
+
+.body p {
+    line-height: 1.6;
+}
+
+.card {
+    width: 80%;
+    box-shadow: 0px 0px 2px 2px rgb(72, 72, 72);
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.image:hover .body {
+    top: 0;
+}
